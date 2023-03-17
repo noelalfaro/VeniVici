@@ -1,34 +1,26 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Nippo", sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
+  max-width: 1280px;
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
+  color: #f0e7e7;
+  background-color: #451804;
+  padding: 0rem;
+  margin: 0 auto;
   font-synthesis: none;
+  text-align: center;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
 body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  justify-content: center;
 }
 
 h1 {
@@ -41,14 +33,15 @@ button {
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
-  font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #f0e7e7;
   cursor: pointer;
   transition: border-color 0.25s;
+  color: #451804;
+  font-weight: 600;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #451804;
 }
 button:focus,
 button:focus-visible {
@@ -57,13 +50,14 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    color: #451804;
+    background-color: #f0e7e7;
   }
   a:hover {
-    color: #747bff;
+    color: #f0e7e7;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: #451804;
+    color: #f0e7e7;
   }
 }

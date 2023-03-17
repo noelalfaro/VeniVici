@@ -1,4 +1,4 @@
-# Web Development Project 4 - Veni Vici
+# Web Development Project 4 - Shot on Mars
 
 Submitted by: Noel Alfaro
 
