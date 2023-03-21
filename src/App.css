@@ -6,6 +6,7 @@
 .whole-page {
   display: flex;
   justify-content: space-evenly;
+  /* flex-direction: column; */
   align-items: center;
   width: 100%;
   height: 100%;
@@ -24,15 +25,33 @@
   font-weight: 500;
 }
 
-.form-container {
-  box-sizing: border-box;
-  width: 45%;
-  height: 90%;
+.apiFormContainer {
+  width: 55%;
+  height: 80%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  /* background-color: red; */
+}
+
+.form-container {
+  box-sizing: border-box;
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background-color: blue; */
   /* border: 2px solid white; */
+}
+
+.form-button-container {
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .title-container {
@@ -57,7 +76,7 @@
 }
 
 .content-container {
-  height: 70%;
+  height: 90%;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -81,7 +100,14 @@
   height: 250px;
   width: 450px;
   border-radius: 8px;
-  border: 2px solid currentColor;
+  /* border: 2px solid currentColor; */
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  height: 100%;
+  object-fit: contain;
 }
 
 .button {
@@ -110,7 +136,7 @@
 
   .previousGallery {
     width: 100%;
-    height: 20%;
+    height: 15%;
     padding-top: 0.5em;
   }
 
@@ -118,10 +144,21 @@
     margin: 0;
     font-size: 18px;
   }
+  .apiFormContainer {
+    width: 100%;
+    height: 60%;
+  }
 
   .form-container {
     width: 100%;
-    height: 55%;
+    height: 90%;
+  }
+
+  .form-button-container {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .title-container {
@@ -163,7 +200,7 @@
 
   .ban-container {
     width: 100%;
-    height: 20%;
+    height: 15%;
     padding-top: 0.5em;
   }
 
@@ -177,5 +214,16 @@
   .image-container {
     height: 200px;
     width: 350px;
+  }
+
+  .apiFormContainer {
+    height: 50%;
+  }
+
+  .ban-container {
+    height: 50%;
+  }
+  .previousGallery {
+    height: 50%;
   }
 }
